@@ -72,7 +72,7 @@ export default function LoginScreen({ onLoginSuccess }: LoginScreenProps) {
         
         {/* Large custom high-contrast white rounded Logo card on top */}
         <div className="w-full max-w-[340px]" id="centered-brand-card">
-          <Logo size="lg" withBackground={true} layout="vertical" className="shadow-[0_25px_60px_rgba(0,0,0,0.4)] border border-slate-100/10 animate-pulse duration-5000" />
+          <Logo size="lg" withBackground={true} layout="vertical" className="shadow-[0_25px_60px_rgba(0,0,0,0.4)] border border-slate-100/10" />
         </div>
 
         {/* Dynamic Glassmorphic Control panel */}
@@ -82,7 +82,7 @@ export default function LoginScreen({ onLoginSuccess }: LoginScreenProps) {
         >
           <div className="mb-6 border-b border-slate-900 pb-4 text-center sm:text-left" id="panel-head">
             <h2 className="text-xl font-bold tracking-tight text-white font-sans flex items-center justify-center sm:justify-start gap-2.5">
-              <Terminal className="h-5 w-5 text-orange-500 animate-pulse" />
+              <Terminal className="h-5 w-5 text-orange-500" />
               <span>Autenticação</span>
             </h2>
             <p className="text-slate-450 text-xs mt-1.5 font-mono">STOCKPILE · SISTEMA DE RACKS EM TEMPO REAL</p>

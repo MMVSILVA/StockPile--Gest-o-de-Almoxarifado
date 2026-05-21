@@ -115,45 +115,45 @@ export default function Logo({
 
           {/* E. Top level shelves and packages */}
           {/* Left storage box on top shelf */}
-          <rect x="115" y="115" width="40" height="42" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
+          <rect x="108" y="141" width="34" height="26" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
           {/* Detailed item indicators representing the labels and handles */}
-          <rect x="123" y="122" width="10" height="6" fill="#0B192C" rx="1" />
-          <rect x="140" y="138" width="8" height="12" fill="none" stroke="#0B192C" strokeWidth="3" rx="1.5" />
+          <rect x="114" y="146" width="8" height="4" fill="#0B192C" rx="1" />
+          <rect x="128" y="156" width="6" height="8" fill="none" stroke="#0B192C" strokeWidth="3" rx="1.5" />
 
           {/* Middle storage box on top shelf */}
-          <rect x="175" y="115" width="45" height="42" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
-          <rect x="183" y="122" width="10" height="6" fill="#0B192C" rx="1" />
-          <rect x="202" y="142" width="10" height="6" fill="#0B192C" rx="1" />
+          <rect x="152" y="126" width="44" height="41" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
+          <rect x="159" y="132" width="10" height="5" fill="#0B192C" rx="1" />
+          <rect x="176" y="151" width="10" height="5" fill="#0B192C" rx="1" />
 
           {/* Secondary small support box on top shelf */}
-          <rect x="238" y="128" width="30" height="29" rx="3" fill="#D2D6DC" stroke="#0B192C" strokeWidth="4" />
-          <rect x="248" y="138" width="10" height="4" fill="#0B192C" />
+          <rect x="208" y="141" width="28" height="26" rx="3" fill="#D2D6DC" stroke="#0B192C" strokeWidth="4" />
+          <rect x="215" y="146" width="8" height="4" fill="#0B192C" />
 
           {/* Right box on top shelf */}
-          <rect x="280" y="118" width="40" height="39" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
-          <rect x="288" y="124" width="10" height="6" fill="#0B192C" rx="1" />
-          <rect x="303" y="141" width="10" height="6" fill="#0B192C" rx="1" />
+          <rect x="250" y="141" width="40" height="26" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
+          <rect x="258" y="146" width="10" height="5" fill="#0B192C" rx="1" />
+          <rect x="272" y="155" width="10" height="5" fill="#0B192C" rx="1" />
 
 
           {/* F. Bottom level shelves and packages */}
           {/* Left box on bottom shelf */}
-          <rect x="115" y="185" width="45" height="42" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
-          <rect x="123" y="192" width="10" height="6" fill="#0B192C" rx="1" />
-          <rect x="142" y="212" width="10" height="6" fill="#0B192C" rx="1" />
+          <rect x="108" y="185" width="42" height="42" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
+          <rect x="116" y="192" width="10" height="6" fill="#0B192C" rx="1" />
+          <rect x="132" y="210" width="10" height="6" fill="#0B192C" rx="1" />
 
           {/* Middle box on bottom shelf */}
-          <rect x="180" y="181" width="42" height="46" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
-          <rect x="188" y="188" width="10" height="6" fill="#0B192C" rx="1" />
-          <rect x="204" y="211" width="10" height="6" fill="#0B192C" rx="1" />
+          <rect x="162" y="181" width="42" height="46" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
+          <rect x="170" y="188" width="10" height="6" fill="#0B192C" rx="1" />
+          <rect x="186" y="210" width="10" height="6" fill="#0B192C" rx="1" />
 
           {/* Secondary small box on bottom shelf */}
-          <rect x="242" y="200" width="22" height="27" rx="2" fill="#D2D6DC" stroke="#0B192C" strokeWidth="3" />
-          <rect x="250" y="206" width="6" height="4" fill="#0B192C" />
+          <rect x="216" y="200" width="24" height="27" rx="2" fill="#D2D6DC" stroke="#0B192C" strokeWidth="3" />
+          <rect x="223" y="206" width="8" height="4" fill="#0B192C" />
 
           {/* Right box on bottom shelf */}
-          <rect x="278" y="185" width="44" height="42" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
-          <rect x="286" y="192" width="10" height="6" fill="#0B192C" rx="1" />
-          <rect x="304" y="210" width="10" height="6" fill="#0B192C" rx="1" />
+          <rect x="252" y="185" width="42" height="42" rx="4" fill="#E2F1FF" stroke="#0B192C" strokeWidth="4" />
+          <rect x="260" y="192" width="10" height="6" fill="#0B192C" rx="1" />
+          <rect x="276" y="210" width="10" height="6" fill="#0B192C" rx="1" />
         </g>
       </svg>
 
@@ -164,7 +164,15 @@ export default function Logo({
             <span style={{ color: resolvedTextColor === 'light' ? '#FFFFFF' : darkNavy }}>Stock</span>
             <span style={{ color: resolvedTextColor === 'light' ? neonOrange : steelBlue }}>Pile</span>
           </span>
-          <span className={`${dims.subText} font-mono tracking-wider uppercase opacity-60 text-slate-400 block text-center`}>
+          <span 
+            className={`${dims.subText} font-mono block text-center`}
+            style={{
+              color: '#00d2ff',
+              textShadow: '0 0 10px rgba(0, 210, 255, 0.85), 0 0 3px rgba(0, 210, 255, 1)',
+              fontWeight: 800,
+              letterSpacing: '0.12em'
+            }}
+          >
             LOGÍSTICA INTELIGENTE
           </span>
         </div>
