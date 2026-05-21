@@ -1,0 +1,8 @@
+{
+  "name": "StockFlow - Gestão de Almoxarifado e Pureza",
+  "description": "Sistema integrado de gestão de estoque crítico, fornecedores, controle de pureza e integrações SAP com mapa interativo 2D e assistente inteligente Athena.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
